@@ -8,8 +8,6 @@ body{
 /* navbar css */
 .navbar {
     background-color: #235a92;
-    font-family: 'Georgia', serif;
-    font-weight: bold;
 }
 
 .nav-link {
@@ -18,18 +16,10 @@ body{
     margin-right: 20px;
 }
 
-.navbar-nav .nav-link:hover {
-  background-color: #ffffff; /* Belirginleşen arkaplan rengi */
-  color: #235a92; /* Belirginleşen metin rengi */
-  border-radius: 10px;
-}
-
 .price-offer {
     background-color: #24d3fb;     color: #235a92; 
     border-radius: 15px;
     padding: 3px 5px;
-    font-family: 'Georgia', serif;
-    font-weight: bolder;
   }
   
   
@@ -40,14 +30,14 @@ body{
 
 /* Slogan css */
 
-/* your-custom-styles.css */
+
 
 /* Slogan alanı genel stillemeleri */
 .slogan-container {
   margin-bottom: 10px;
   position: relative;
   width: 100%;
-  height: 300px; /* Slogan alanı yüksekliği, ihtiyaca göre ayarlayabilirsiniz */
+  height: 300px; 
   overflow: hidden;
 }
 
@@ -59,11 +49,9 @@ body{
   width: 100%;
   height: 100%;
   position: absolute;
-  filter: brightness(0.5); /* Koyulaştırma efekti, 0 ile 1 arasında değer kullanabilirsiniz */
-  backdrop-filter: blur(10px); /* Blurlaştırma efekti, istediğiniz px değerini kullanabilirsiniz */
+  filter: brightness(0.8); 
 }
 
-/* Metin */
 .slogan-content {
   position: absolute;
   top: 50%;
@@ -77,9 +65,6 @@ body{
   font-size: 50px;
   letter-spacing: 10px;
   margin-bottom: 5px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-  color: white;
   
 }
 
@@ -87,28 +72,25 @@ body{
   font-size: 18px;
   margin-top: -10px;
   letter-spacing: 5px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-  color: white;
 }
 
 
 /* Arama çubuğu */
 
-/* your-custom-styles.css */
+
 
 /* Renkli şerit */
 .color-strip {
-  height: 50px; /* Şerit yüksekliği, ihtiyaca göre ayarlayabilirsiniz */
-  background-color: #235a92; /* Şerit rengi */
+  height: 50px; 
+  background-color: #235a92; 
 }
 
 /* Ortalanmış arama çubuğu alanı */
 .search-container {
   width: 100%;
-  max-width: 400px; /* İstediğiniz maksimum genişlik, ihtiyaca göre ayarlayabilirsiniz */
-  margin: 0 auto; /* Horizontal ortalama */
-  text-align: center; /* İçeriği ortala */
+  max-width: 400px; 
+  margin: 0 auto; 
+  text-align: center; 
   padding: 5px; /* İçerik etrafındaki boşluklar */
 }
 
@@ -154,15 +136,15 @@ body{
 
 /* ürün grupları */
 
-/* your-custom-styles.css */
+
 
 /* Genel stillemeler */
 .content-container {
   width: 100%;
-  max-width: 800px; /* İstediğiniz maksimum genişlik, ihtiyaca göre ayarlayabilirsiniz */
-  margin: 0 auto; /* Horizontal ortalama */
-  text-align: center; /* İçeriği ortala */
-  padding: 20px; /* İçerik etrafındaki boşluklar */
+  max-width: 800px; 
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 20px; 
 }
 
 /* Başlık stillemeleri */
@@ -172,17 +154,6 @@ h2 {
   letter-spacing: 3px;
   color: #3a01a3;
 }
-/* Ürün Gruplarımız yazısının fontunu değiştiren stil kuralları */
-.content-container h2 {
-  font-family: "Times New Roman", Times, serif; /* Kullanmak istediğiniz fontu buraya ekleyin */
-  font-weight: bolder;
-}
-@media screen and (max-width: 767px) {
-  .content-container h2 {
-    font-size: 30px; /* Küçük ekranlarda boyutu küçült */
-  }
-}
-
 
 /* Ürün grupları alanı genel stillemeleri */
 .product-groups-container {
@@ -195,50 +166,23 @@ h2 {
 .product-group {
   flex: 1;
   margin: 10px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   text-align: center;
   background-size: cover;
   position: relative;
-
-  /* Kartın genişliği ve yüksekliği */
-  width: 400px; /* İstediğiniz genişlik değeri */
-  height: 275px; /* İstediğiniz yükseklik değeri */
-
-  background: rgb(238, 174, 202); /* Fallback rengi */
-  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 52%);
-  color: black; /* Yazı rengi beyaz */
 }
 
 /* İncele butonu stillemeleri */
 .product-group button {
   background-color: #3a01a3; /* İncele butonunun arka plan rengi */
   margin-top: 10px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-}
-.product-group button:hover {
-  background-color: #ffffff; /* Hover durumunda arkaplan rengi */
-  color: #3a01a3; /* Hover durumunda metin rengi */
-  border-radius: 5px;
-}
-
-.product-group h3 {
-  font-family: "Times New Roman", Times, serif; /* Başlık için yazı tipi seçimi */
-  font-weight: bolder;
-}
-
-.product-group p {
-  font-family: "Times New Roman", Times, serif; /* Paragraf için yazı tipi seçimi */
-  font-weight: bolder;
 }
 
 /* İkon stillemeleri */
 .product-group i {
   color: #fff; /* İkon rengi */
   margin-bottom: 10px;
-  font-size: 4em;
-  font-weight: bolder;
 }
 
 /* misyon ve vizyon */
@@ -246,20 +190,6 @@ h2 {
 /* your-custom-styles.css */
 
 /* Misyon ve Vizyon alanı genel stillemeleri */
-.mission h2 {
-  font-family: 'Times New Roman', serif; /* Yazı tipi seçimi */
-  font-size: 50px;
-  color: #3a01a3; /* Yazı rengi */
-  font-weight: bolder;
-}
-/* Misyon kartının arkaplan rengini değiştirme */
-
-.vision h2 {
-  font-family: 'Times New Roman', serif;
-  font-size: 50px;
-  color: #3a01a3; 
-  font-weight: bolder;
-}
 .mission-vision-container {
   display: flex;
   flex-wrap: wrap;
@@ -269,14 +199,12 @@ h2 {
 
 /* Misyon ve Vizyon alanları stillemeleri */
 .mission, .vision {
-  background: rgb(238, 174, 202); /* Fallback rengi */
-  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 52%);
   flex: 1;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 20px; /* Belirli bir boşluk bırakır */
-  color: #040404; 
+  color: #fff; /* Yazı rengi beyaz olacak */
 }
 
 /* Boşluk stillemeleri */
@@ -313,10 +241,6 @@ h2 {
 /* Bize Ulaşın başlığı stillemeleri */
 h2 {
   width: 100%;
-  font-family: 'Times New Roman', serif;
-  font-size: 50px;
-  color: #3a01a3; 
-  font-weight: bolder;
 }
 
 /* Her bir iletişim öğesi (WhatsApp, Yol Tarifi, E-Posta) stillemeleri */
@@ -340,3 +264,8 @@ h2 {
   color: #3a01a3; /* Ikon rengi */
 }
 
+/* Ürünler */
+
+.card {
+  border: none; 
+}
