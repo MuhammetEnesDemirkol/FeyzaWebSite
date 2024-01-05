@@ -1,0 +1,267 @@
+/* Body General Css */
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* navbar css */
+.navbar {
+    background-color: #235a92;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.price-offer {
+    background-color: #24d3fb;     color: #235a92; 
+    border-radius: 15px;
+    padding: 3px 5px;
+  }
+  
+  
+  .price-offer:hover {
+    background-color: #1cf7ff; 
+    color: #ffffff; 
+  }
+
+/* Slogan css */
+
+/* your-custom-styles.css */
+
+/* Slogan alanı genel stillemeleri */
+.slogan-container {
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  height: 300px; /* Slogan alanı yüksekliği, ihtiyaca göre ayarlayabilirsiniz */
+  overflow: hidden;
+}
+
+/* Görsel (arka plan) */
+.slogan-background {
+  
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: brightness(0.8); /* Görselin parlaklığını ayarlar, 1 normal parlaklık, 0 karanlık */
+}
+
+/* Metin */
+.slogan-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #3a01a3;
+}
+
+.slogan-content h2 {
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-bottom: 5px;
+  
+}
+
+.slogan-content p {
+  font-size: 18px;
+  margin-top: -10px;
+  letter-spacing: 5px;
+}
+
+
+/* Arama çubuğu */
+
+/* your-custom-styles.css */
+
+/* Renkli şerit */
+.color-strip {
+  height: 50px; /* Şerit yüksekliği, ihtiyaca göre ayarlayabilirsiniz */
+  background-color: #235a92; /* Şerit rengi */
+}
+
+/* Ortalanmış arama çubuğu alanı */
+.search-container {
+  width: 100%;
+  max-width: 400px; /* İstediğiniz maksimum genişlik, ihtiyaca göre ayarlayabilirsiniz */
+  margin: 0 auto; /* Horizontal ortalama */
+  text-align: center; /* İçeriği ortala */
+  padding: 5px; /* İçerik etrafındaki boşluklar */
+}
+
+/* Oval arama çubuğu ve ikonu stillemeleri */
+.search-box {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 30px; /* Oval şeklini sağlayan değer */
+  overflow: hidden;
+  background-color: #fff; /* Arama çubuğunun arka plan rengi */
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #3a01a3; /* Metin rengi */
+}
+
+.search-box button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #3a01a3; /* İkon rengi */
+}
+
+/* Küçük ekranlarda arama çubuğunu daha küçük yapma */
+@media screen and (max-width: 767px) {
+  .search-box input {
+    padding: 8px;
+  }
+
+  .search-box button {
+    padding: 8px;
+  }
+}
+
+
+/* ürün grupları */
+
+/* your-custom-styles.css */
+
+/* Genel stillemeler */
+.content-container {
+  width: 100%;
+  max-width: 800px; /* İstediğiniz maksimum genişlik, ihtiyaca göre ayarlayabilirsiniz */
+  margin: 0 auto; /* Horizontal ortalama */
+  text-align: center; /* İçeriği ortala */
+  padding: 20px; /* İçerik etrafındaki boşluklar */
+}
+
+/* Başlık stillemeleri */
+h2 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #3a01a3;
+}
+
+/* Ürün grupları alanı genel stillemeleri */
+.product-groups-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Her bir ürün grubu stillemeleri */
+.product-group {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* İncele butonu stillemeleri */
+.product-group button {
+  background-color: #3a01a3; /* İncele butonunun arka plan rengi */
+  margin-top: 10px;
+}
+
+/* İkon stillemeleri */
+.product-group i {
+  color: #fff; /* İkon rengi */
+  margin-bottom: 10px;
+}
+
+/* misyon ve vizyon */
+
+/* your-custom-styles.css */
+
+/* Misyon ve Vizyon alanı genel stillemeleri */
+.mission-vision-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start; /* Telefon modunda yan yana, aşağı doğru kaymasını sağlar */
+}
+
+/* Misyon ve Vizyon alanları stillemeleri */
+.mission, .vision {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Belirli bir boşluk bırakır */
+  color: #fff; /* Yazı rengi beyaz olacak */
+}
+
+/* Boşluk stillemeleri */
+.space {
+  width: 100%; /* Belirli bir boşluk genişliği */
+}
+
+/* Responsive düzenleme */
+@media screen and (max-width: 767px) {
+  .mission, .vision {
+    flex: 1;
+    width: 100%; /* Tam genişlik alacak */
+  }
+
+  .mission, .vision {
+    margin-bottom: 10px; /* Telefon modunda daha az boşluk bırakır */
+  }
+}
+
+/* Bize ulaşın */
+/* your-custom-styles.css */
+
+/* Bize Ulaşın alanı genel stillemeleri */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #fff; /* Arka plan rengi beyaz */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Bize Ulaşın başlığı stillemeleri */
+h2 {
+  width: 100%;
+}
+
+/* Her bir iletişim öğesi (WhatsApp, Yol Tarifi, E-Posta) stillemeleri */
+.contact-item {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+ 
+}
+
+/* QR Kodu stillemeleri */
+.contact-item img {
+  width: 100%;
+  max-width: 150px; /* QR kodunun maksimum genişliği */
+  margin-top: 10px;
+}
+
+/* Ikon stillemeleri */
+.contact-item i {
+  color: #3a01a3; /* Ikon rengi */
+}
+
