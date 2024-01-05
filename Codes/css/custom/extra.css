@@ -30,14 +30,14 @@ body{
 
 /* Slogan css */
 
-/* your-custom-styles.css */
+
 
 /* Slogan alanı genel stillemeleri */
 .slogan-container {
   margin-bottom: 10px;
   position: relative;
   width: 100%;
-  height: 300px; /* Slogan alanı yüksekliği, ihtiyaca göre ayarlayabilirsiniz */
+  height: 300px; 
   overflow: hidden;
 }
 
@@ -49,10 +49,9 @@ body{
   width: 100%;
   height: 100%;
   position: absolute;
-  filter: brightness(0.8); /* Görselin parlaklığını ayarlar, 1 normal parlaklık, 0 karanlık */
+  filter: brightness(0.8); 
 }
 
-/* Metin */
 .slogan-content {
   position: absolute;
   top: 50%;
@@ -78,20 +77,20 @@ body{
 
 /* Arama çubuğu */
 
-/* your-custom-styles.css */
+
 
 /* Renkli şerit */
 .color-strip {
-  height: 50px; /* Şerit yüksekliği, ihtiyaca göre ayarlayabilirsiniz */
-  background-color: #235a92; /* Şerit rengi */
+  height: 50px; 
+  background-color: #235a92; 
 }
 
 /* Ortalanmış arama çubuğu alanı */
 .search-container {
   width: 100%;
-  max-width: 400px; /* İstediğiniz maksimum genişlik, ihtiyaca göre ayarlayabilirsiniz */
-  margin: 0 auto; /* Horizontal ortalama */
-  text-align: center; /* İçeriği ortala */
+  max-width: 400px; 
+  margin: 0 auto; 
+  text-align: center; 
   padding: 5px; /* İçerik etrafındaki boşluklar */
 }
 
@@ -137,15 +136,15 @@ body{
 
 /* ürün grupları */
 
-/* your-custom-styles.css */
+
 
 /* Genel stillemeler */
 .content-container {
   width: 100%;
-  max-width: 800px; /* İstediğiniz maksimum genişlik, ihtiyaca göre ayarlayabilirsiniz */
-  margin: 0 auto; /* Horizontal ortalama */
-  text-align: center; /* İçeriği ortala */
-  padding: 20px; /* İçerik etrafındaki boşluklar */
+  max-width: 800px; 
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 20px; 
 }
 
 /* Başlık stillemeleri */
@@ -265,3 +264,8 @@ h2 {
   color: #3a01a3; /* Ikon rengi */
 }
 
+/* Ürünler */
+
+.card {
+  border: none; 
+}
